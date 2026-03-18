@@ -1,14 +1,14 @@
-# 🔢 Números del 1 al 10 - Multilenguaje (Pascal + C++)
+# 🔢 Números del 1 al 10 - Multilenguaje (Pascal + C++ + Python)
 
 ## 📌 Descripción
 
-Este proyecto es un programa simple desarrollado en **Pascal** y **C++** que imprime en pantalla los números del **1 al 10**.
+Este proyecto es un programa simple desarrollado en **Pascal**, **C++** y **Python** que imprime en pantalla los números del **1 al 10**.
 
 ---
 
 ## ⚙️ Funcionamiento
 
-Ambas versiones del programa:
+Todas las versiones del programa:
 
 1. Usan un bucle para recorrer del 1 al 10.
 2. Imprimen cada número en la misma línea.
@@ -46,6 +46,17 @@ int main() {
 
 ---
 
+## 💻 Código en Python
+
+```python
+for i in range(1, 11):
+    print(i, end=' ')
+
+print()
+```
+
+---
+
 ## ▶️ Ejecución
 
 ### Pascal (Free Pascal)
@@ -62,13 +73,19 @@ g++ numeros1al10.cpp -o numeros1al10
 ./numeros1al10
 ```
 
+### Python
+
+```bash
+python numeros1al10.py
+```
+
 ---
 
 ## 🧾 Salida esperada
 
-### Pascal y C++
+### Pascal, C++ y Python
 
-```id="output"
+```
 1 2 3 4 5 6 7 8 9 10
 ```
 
@@ -85,7 +102,7 @@ g++ numeros1al10.cpp -o numeros1al10
 
 ## 🚀 Futuras mejoras
 
-* Agregar más lenguajes (Python, Java, JavaScript… que se venga el festival 🎪)
+* Agregar más lenguajes (Java, JavaScript… que esto ya parece un Avengers de código 🧠)
 * Permitir al usuario definir el rango
 * Modularizar el código en funciones
 
@@ -93,10 +110,11 @@ g++ numeros1al10.cpp -o numeros1al10
 
 ## 📂 Estructura del proyecto
 
-```id="structure"
+```
 /numeros1al10
  ├── numeros1al10.pas
  ├── numeros1al10.cpp
+ ├── numeros1al10.py
  └── README.md
 ```
 
